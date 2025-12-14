@@ -165,6 +165,12 @@
 		    <version>2.8.2</version>
 		</dependency>
     </dependencies>
+	<distributionManagement>	
+		<repository>
+		    <id>nexusRepo</id>
+		    <url>http://54.158.10.150:8081/repository/MyNexusRepo/</url>
+		</repository>
+  	</distributionManagement>
      <build>
         <plugins>
             <plugin>
